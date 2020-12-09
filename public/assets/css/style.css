@@ -1264,8 +1264,7 @@ ul.top-info>li i {
 }
 
 .donation-info-outer p {
-	font-weight: 700;
-	font-style: italic;
+	font-weight: bold;
 	color: #333333;
 	margin: 0 0 25px;
 	font-size: 18px;
@@ -1541,7 +1540,7 @@ ul.top-info>li i {
 .cp-video-info-outer h3,
 .cp-video-info-outer h2 {
 	letter-spacing: -.25px;
-	color: #fff;
+	/* color: #fff; */
 	margin: 0 0 35px;
 }
 
