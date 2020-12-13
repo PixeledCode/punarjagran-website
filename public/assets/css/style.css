@@ -208,13 +208,8 @@ figure {
 }
 
 figure figcaption {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	z-index: 99;
+	font-size: small;
+	color: grey;
 }
 
 section {
@@ -6773,4 +6768,13 @@ nav div>ul>li>a:focus,
 .hero-text h2 {
 	font-size: 25px;
 	font-weight: 400;
+}
+
+.disable {
+	pointer-events: none;
+	cursor: default;
+}
+
+.d-width {
+	width: 250px;;
 }
