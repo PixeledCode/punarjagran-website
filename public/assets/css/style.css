@@ -156,6 +156,25 @@ section {
 .cp-main-content {
 	float: left;
 	width: 100%;
+	margin-top: 12rem;
+}
+
+@media (min-width: 981px) and (max-width: 1200px) {
+	.cp-main-content {
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 980px) {
+	.cp-main-content {
+		margin-top: 15rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.cp-main-content {
+		margin-top: 5rem;
+	}
 }
 
 /*===== Fast Select Style =====*/
@@ -725,7 +744,7 @@ nav div ul {
 nav div > ul > li {
 	float: left;
 	font-size: 14px;
-	color: #fff;
+	color: #000;
 	margin-right: 30px;
 	line-height: 100px;
 }
@@ -811,7 +830,7 @@ nav div ul ul {
 
 .header-donate:hover,
 .header-donate:focus {
-	background-color: #fff;
+	background-color: hsl(68, 88%, 38%);
 }
 
 .header-donate > i {
@@ -1139,10 +1158,6 @@ ul.top-info > li i {
 .cp-donation-section {
 	position: relative;
 	z-index: 1;
-}
-
-.cp-donation-section_home {
-	margin-top: -60px;
 }
 
 .cp-donation-inner {
@@ -3496,6 +3511,10 @@ div.modal-backdrop {
 	right: 0;
 	top: -70px;
 	z-index: 99;
+}
+
+.owl-carousel {
+	margin-top: 155px;
 }
 
 .cp-team-item {
@@ -6680,17 +6699,6 @@ nav div > ul > li > a:focus,
 	position: relative;
 	display: flex;
 	height: 40rem;
-	background: #222222; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to top,
-		#ffffff,
-		#222222
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to top,
-		#ffffff,
-		#222222
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .hero-image img {

@@ -84,9 +84,6 @@
 	.cp-btn-style_v3 {
 		padding: 23px 50px;
 	}
-	.cp-donation-section_home {
-		margin-top: -100px;
-	}
 	.cp-donation-inner {
 		margin-left: 100px;
 		padding-right: 100px;
@@ -278,9 +275,6 @@
 }
 
 @media (max-width: 1040px) {
-	.cp-donation-section_home {
-		margin-top: 80px;
-	}
 	#cp-sponsors-slider .owl-controls .owl-nav .owl-prev {
 		margin-left: -20px;
 	}
@@ -400,7 +394,7 @@
 		display: block;
 	}
 	.hero-image {
-		height: 20rem;
+		height: 18rem;
 	}
 	.owl-carousel {
 		margin-top: 108px;
@@ -446,6 +440,11 @@
 		-ms-column-count: 2;
 		column-count: 2;
 	}
+
+	/* .cp-main-content {
+		margin-top: 10rem;
+	} */
+
 	.cp-contact-info_v2 {
 		padding: 50px 20px 0 25px;
 	}
